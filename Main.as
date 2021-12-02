@@ -119,7 +119,8 @@
 						}
 					}
 				}
-
+				//if there are new blocks to spwan
+				//place them above screen at (i - floor - 1)
 				if (floor >= 0) {
 					for (var i: int = floor; i >= 0; i--) {
 						b = new Block();
